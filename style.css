@@ -1,0 +1,385 @@
+body {
+    font-family: Poppins;
+    font-size: 1em;
+    background-color: white;
+    margin: 0;
+   padding: 0;
+   
+ 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    background-color:#E02C6D;
+    color: white;
+    height: 100px;
+   
+}
+
+.header-title{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.icondiv{
+    display: flex;
+    margin-right: 20px;
+}
+
+.link_icon  {
+    
+  margin-right: 15px;
+    
+} 
+.link_icon a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.link_icon i {
+    padding-left: 10px;
+    font-size: 18px;
+}
+.start-journey-div {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.start-journey-div:hover img{
+    transform: rotate(50deg);
+    width: 85%;
+  
+} 
+.hulf-width {
+    width: 40%;
+    margin-left: 60px;
+}
+
+
+.heaing-style{
+   font-size: 40px;
+   font-weight: bolder;
+  
+}
+
+
+
+.btn1 {
+    border: none;
+    border-radius: 15px;
+    padding: 8px 15px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+
+.hulf-width img {
+    width: 70%;
+    transition: 1.5s;
+  
+} 
+
+
+
+.logos{
+    text-align: center;
+    border: 1px solid gainsboro ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    
+    
+}
+.logos img{
+    margin-right: 20px;
+    height: 25px;
+    width: 80px;
+}
+
+.collections-section{
+    margin-top: 70px;
+}
+
+
+.collections-section-title {
+    text-align: center;
+}
+
+.hh{
+    display: flex;
+   justify-content: center;
+}
+
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.collection {
+
+    text-align: left;
+    padding-left: 18px;
+    padding-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.collected-img img{
+    width: 94%;
+ 
+}
+
+.collections-detail > .icon,.bottom-para,span{
+    font-size: 17px;
+}
+.filled{
+    color: orange;
+}
+.empty{
+    color: #AEAEAE;
+}
+.see-more{
+margin-top: 30px;
+    margin-right: 130px;
+  text-align: right;
+  
+}
+
+.see-more a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+.last-div-of-camera {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    margin: 40px auto;
+
+}
+.last-camara img{
+    width: 80%;
+}
+
+
+.footer-div {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+
+
+
+.footer-div i{
+    
+    font-size: larger;
+}
+
+
+/* -------------------------
+--------For Mobile ---------
+----------------------------*/
+
+
+
+
+
+@media only screen and (max-width:688px) {
+
+ 
+    .header {
+        display: block;
+        margin: 0;
+        padding: 5px;   
+    }
+    .header-title{
+          margin-left: 10px;
+          font-size: 20px;
+    }
+
+    .link_icon{
+        display: none;
+    }
+    .header{
+        display: flex;
+    }
+    
+
+.start-journey-div {
+
+    display: block;
+
+   margin-left: 90px;
+
+    /* -For Mobile --*/
+
+}
+
+#top-camera{
+    margin-top: 60px;
+}
+.hulf-width {
+    width: 40%;
+    margin-left: 06px;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-row-gap: 10px;
+    margin-left: 30px;
+}
+.logos img{
+    margin-right: 5px;
+    height: 15px;
+    width: 40px;
+}
+
+   /* -For Mobile --*/
+
+.collections-section{
+    margin-top: 30px;
+}
+
+.collections-section-title{
+    margin-left: -15px;
+}
+.collections {
+    display: block;
+    margin-right: 72px;
+    margin-top:10px;
+  
+}
+
+.start-journey-div:hover img{
+    transform: rotate(50deg);
+    width: 115%;
+  
+}
+.collection {
+ 
+    margin-top:15px;
+    padding-left: 18px;
+  
+}
+
+   /* -For Mobile --*/
+
+.see-more{
+    margin-top: 30px;
+        margin-right: 130px;
+      text-align: right;
+      
+    }
+    
+
+.last-div-of-camera {
+margin-top: 20px;
+margin-bottom: 30px;
+    display: block;
+
+}
+
+.last-camara{
+    text-align: center;
+}
+
+.hulf-width {
+    width: 40%;
+    
+}
+   /* -For Mobile --*/
+
+.footer-div {
+  
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+
+}  
+
+
+
+}
+
+
+
+/* -------------------------
+--------For Tablet ---------
+----------------------------*/
+
+
+
+
+@media only screen and (min-width:689px) and (max-width:992px){
+
+.header{
+    background-color:#E02C6D;
+   
+}
+
+.logos img{
+    margin-right: 5px;
+    height: 15px;
+    width: 40px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.footer-div {
+  
+  
+    padding-bottom: 20px 10px;
+
+
+} 
+
+
+
+
+
+
+
+
+
+}
+
